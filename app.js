@@ -4,6 +4,7 @@ const port = 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello from my web app running on AWS EC2 using Docker & Jenkins!');
+  res.send('🚀 Auto-deployment test successful! This update was deployed automatically via Jenkins webhook.');
 });
 
 app.listen(port, () => {
