@@ -1,0 +1,12 @@
+{
+  "name": "my-webapp",
+  "version": "1.0.0",
+  "description": "Simple Node.js web app running on AWS EC2 via Docker & Jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
